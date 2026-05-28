@@ -1,6 +1,7 @@
 # CSS Fundamentals
 ## Margins & Padding
 The spacing between heading elements and paragraph elements are controlled by margin-top and margin-bottom properties.
+<br>
 By default, they all have a margin-top and buttom that equals their font-size. 
 
 ### Margin collapsing
