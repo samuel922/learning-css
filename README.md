@@ -30,3 +30,6 @@ Sometimes we need elements to stay inline but still be able to apply padding and
 ---
 ### Specificity
 Specificity defines how specfic a selector can be. Element selectors have the lowest specificity, followed by class selector then id selectors have the highest. Specificty overrides position on the file. The **general rule of thumb** is to always use element selectors to select general rules like html, body, headings, paragraphs and everything else given a class.
+<br>
+<br>
+As much as using compound selectors may improve specificity of a selector, we should minimize using compound selector to prevent specificity battles that may arise in future as the css file size becomes bigger. Therefore, we should apply one class to an element and select it using the class to minimize getting into problems caused by compound selector. Example compound selector -> div button
