@@ -20,6 +20,7 @@ These are elements that stack on top of each other by default. They push the ele
 These elements include - header, main, footer, nav, ul, ol, li, div, aside, p, h1 ... h5 etc,
 #### Inline-block elements
 Sometimes we need elements to stay inline but still be able to apply padding and margin on all sides to it. This is where inline-block elements comes in. They allow inline elements to still be adjacent to each other but still be able to apply a padding and margin in both sides.
+
 ---
 ### Styling Buttons
 - Always add class on the link itself and not on the element that wraps over the link.
