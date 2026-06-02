@@ -10,11 +10,11 @@ We also need to remove the margin top of elements within a parent like a card to
 
 ### Inline vs Block level elements
 #### Inline elements
-Inline elements flow with the content around it adn does not push other elements to the next line. Inline elements also have some unique behaviors we need to note:
+Inline elements flow with the content around it and does not push other elements to the next line. Inline elements also have some unique behaviors we need to note:
 - You can only nest other inline elements within them.
 - They will only respect the margin, padding and border placed on the left or the right side and not top and bottom.
 
-Example of inline elements include -> strong, a, em, image, span etc.
+Example of inline elements include -> strong, a, em, img, span etc.
 #### Block elements
 These are elements that stack on top of each other by default. They push the elements around them to the next line, they take the full viewport horizontal width.
 These elements include - header, main, footer, nav, ul, ol, li, div, aside, p, h1 ... h5 etc,
