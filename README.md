@@ -19,3 +19,4 @@ Example of inline elements include -> strong, a, em, image, span etc.
 These are elements that stack on top of each other by default. They push the elements around them to the next line, they take the full viewport horizontal width.
 These elements include - header, main, footer, nav, ul, ol, li, div, aside, p, h1 ... h5 etc,
 #### Inline-block elements
+Sometimes we need elements to stay inline but still be able to apply padding and margin on all sides to it. This is where inline-block elements comes in. They allow inline elements to still be adjacent to each other but still be able to apply a padding and margin in both sides.
