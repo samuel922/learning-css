@@ -20,9 +20,12 @@ These are elements that stack on top of each other by default. They push the ele
 These elements include - header, main, footer, nav, ul, ol, li, div, aside, p, h1 ... h5 etc,
 #### Inline-block elements
 Sometimes we need elements to stay inline but still be able to apply padding and margin on all sides to it. This is where inline-block elements comes in. They allow inline elements to still be adjacent to each other but still be able to apply a padding and margin in both sides.
-
+---
 ### Styling Buttons
 - Always add class on the link itself and not on the element that wraps over the link.
 - Always use padding to size the button and not width and height.
 - Always use a rule of applying a padding ratio of 1:2.5 to the button. Making the padding on the left and right 2x or 2.5x bigger that the top and bottom margin to make it look good.
 - Using links(a) tag for buttons have an advantage of being able to navigate to the link content by clicking anywhere on the button. On the other hand, in a button, you have to click at the button     text
+---
+### Specificity
+Specificity defines how specfic a selector can be. Element selectors have the lowest specificity, followed by class selector then id selectors have the highest. Specificty overrides position on the file. The **general rule of thumb** is to always use element selectors to select general rules like html, body, headings, paragraphs and everything else given a class.
