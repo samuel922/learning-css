@@ -22,8 +22,8 @@ These elements include - header, main, footer, nav, ul, ol, li, div, aside, p, h
 Sometimes we need elements to stay inline but still be able to apply padding and margin on all sides to it. This is where inline-block elements comes in. They allow inline elements to still be adjacent to each other but still be able to apply a padding and margin in both sides.
 
 ### Styling Buttons
-Always add class on the link itself and not on the element that wraps over the link.\
-Always use padding to size the button and not width and height.\
-Always use a rule of applying a padding ratio of 1:2.5 to the button. Making the padding on the left and right 2x or 2.5x bigger that the top and bottom margin to make it look good.
+- Always add class on the link itself and not on the element that wraps over the link.\
+- Always use padding to size the button and not width and height.\
+- Always use a rule of applying a padding ratio of 1:2.5 to the button. Making the padding on the left and right 2x or 2.5x bigger that the top and bottom margin to make it look good.
 <br>
-Using links(a) tag for buttons have an advantage of being able to navigate to the link content by clicking anywhere on the button. On the other hand, in a button, you have to click at the button text
+- Using links(a) tag for buttons have an advantage of being able to navigate to the link content by clicking anywhere on the button. On the other hand, in a button, you have to click at the button text
