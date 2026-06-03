@@ -42,3 +42,7 @@ There are different type of units that we can use and css comes with a number of
 - Percentages
 
 Absolute units are the easiest and they include px(pixel), cm, mm, in, etc,.
+Percentages are mostly used on widths relative to their parent.
+Relative units are further broken down in to:
+- Relative to the **fontsize**
+- Relative to **viewport**
