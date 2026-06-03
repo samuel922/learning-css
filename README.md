@@ -33,3 +33,12 @@ Specificity defines how specfic a selector can be. Element selectors have the lo
 <br>
 <br>
 As much as using compound selectors may improve specificity of a selector, we should minimize using compound selector to prevent specificity battles that may arise in future as the css file size becomes bigger. Therefore, we should apply one class to an element and select it using the class to minimize getting into problems caused by compound selector. Example compound selector -> div button
+
+---
+### Thinking responsively
+There are different type of units that we can use and css comes with a number of them
+- Relative units
+- Absolute units
+- Percentages
+
+Absolute units are the easiest and they include px(pixel), cm, mm, in, etc,.
