@@ -54,3 +54,6 @@ The most crirtical quation we ask for percentage units when applied to element i
 As discussed earlier, relative units are called relative because they are relative to either the font size or the viewport of the browser
 ##### em
 em units in particular are relative to their parent font-size. These has an effect of cascading the font-size change to all other elements with em units applied when the font size of the parent is changed. Since font sizes are inherited, em is always relative to the parent's font size when it's set or relative to the root element's font size.
+<br>
+<br>
+em's are convinient for some things but when used on font sizes they have a cascading effect that may result to be problematic.
