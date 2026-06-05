@@ -44,8 +44,8 @@ There are different type of units that we can use and css comes with a number of
 Absolute units are the easiest and they include px(pixel), cm, mm, in, etc,.
 Percentages are mostly used on widths relative to their parent.
 Relative units are further broken down in to:
-- Relative to the **fontsize**
-- Relative to **viewport**
+- Relative to the **fontsize** -> em and rem
+- Relative to **viewport** -> browser window -> vw, vh, vmin, vmax
 
 #### Percentage units
-
+The most crirtical quation we ask for percentage units when applied to element is. It is a percentage of what? Percentage units are applied relative to their parents container width. Therefore, we need to be very careful when applying these. Percentage units on width works well with max and min units by setting an absolute max/min width to prevent the content from overstretching or going bellow a certain width.
