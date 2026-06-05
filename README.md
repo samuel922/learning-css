@@ -60,3 +60,7 @@ em's are convinient for some things but when used on font sizes they have a casc
 
 ##### rem
 rem are called root em. This is becuase unlike em,  which are relative to thier parents, rem are relative to the root element. Which is the html element itself. They don't have the cascading effect as we saw with em units but the size only increase if the font size of the root elements is also changed.
+**The rule of thumb**
+- use rem for font-sizes
+- use em for padding and margins
+- use em/percentage units for widths
