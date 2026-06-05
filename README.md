@@ -57,3 +57,6 @@ em units in particular are relative to their parent font-size. These has an effe
 <br>
 <br>
 em's are convinient for some things but when used on font sizes they have a cascading effect that may result to be problematic.
+
+##### rem
+rem are called root em. This is becuase unlike em,  which are relative to thier parents, rem are relative to the root element. Which is the html element itself. They don't have the cascading effect as we saw with em units but the size only increase if the font size of the root elements is also changed.
