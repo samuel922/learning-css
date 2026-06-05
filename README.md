@@ -49,3 +49,8 @@ Relative units are further broken down in to:
 
 #### Percentage units
 The most crirtical quation we ask for percentage units when applied to element is. It is a percentage of what? Percentage units are applied relative to their parents container width. Therefore, we need to be very careful when applying these. Percentage units on width works well with max and min units by setting an absolute max/min width to prevent the content from overstretching or going bellow a certain width.
+
+#### Relative units
+As discussed earlier, relative units are called relative because they are relative to either the font size or the viewport of the browser
+##### em
+em units in particular are relative to their parent font-size. These has an effect of cascading the font-size change to all other elements with em units applied when the font size of the parent is changed. Since font sizes are inherited, em is always relative to the parent's font size when it's set or relative to the root element's font size.
